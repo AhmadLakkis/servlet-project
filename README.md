@@ -157,7 +157,7 @@ Look for: `Deployment of web application archive ... has finished`
 
 Complete documentation with screenshots is available in:
 - **Word Document:** `Lakkis_ServletProject.docx`
-- **GitHub Repository:** https://github.com/YOUR-USERNAME/servlet-project/tree/servlet-implementation
+- **GitHub Repository:** https://github.com/AhmadLakkis/servlet-project/tree/servlet-implementation
 
 ## 🔗 Repository Contents
 
