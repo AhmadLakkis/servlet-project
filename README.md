@@ -8,11 +8,9 @@ A simple Java Servlet application that displays a personalized greeting message,
 - [Software Requirements](#software-requirements)
 - [Project Structure](#project-structure)
 - [Installation Steps](#installation-steps)
-- [Compilation Methods](#compilation-methods)
+- [Compilation Using maven](#compilation-methods)
 - [Deployment](#deployment)
 - [Testing](#testing)
-- [Screenshots](#screenshots)
-- [Troubleshooting](#troubleshooting)
 
 ## 🎯 Overview
 
