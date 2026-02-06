@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servlet Project Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #1e3c72;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .description {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .description h2 {
+            color: #2a5298;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .description ul {
+            list-style-position: inside;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(245, 87, 108, 0.4);
+        }
+
+        .info {
+            margin-top: 30px;
+            padding: 15px;
+            background: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            text-align: left;
+            border-radius: 4px;
+        }
+
+        .info strong {
+            color: #1976D2;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Servlet Project</h1>
+        <p class="subtitle">Java Servlet with Apache Tomcat</p>
+        
+        <div class="description">
+            <h2>Project Overview</h2>
+            <ul>
+                <li>Servlet-based web application</li>
+                <li>Deployed on Apache Tomcat</li>
+                <li>Dynamic HTML generation</li>
+                <li>RESTful URL mapping</li>
+            </ul>
+        </div>
+
+        <div class="button-container">
+            <a href="hello" class="btn btn-primary">Launch Servlet</a>
+            <a href="hello?name=CustomName" class="btn btn-secondary">Try with Parameter</a>
+        </div>
+
+        <div class="info">
+            <strong>📌 Note:</strong> Click the "Launch Servlet" button to invoke the HelloServlet and see the greeting message. The servlet is mapped to the "/hello" URL pattern.
+        </div>
+
+        <footer>
+            <p>Created with ❤️ using Java Servlets & Tomcat</p>
+            <p>Student Project - Web Development</p>
+        </footer>
+    </div>
+</body>
+</html>
