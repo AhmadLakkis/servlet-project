@@ -156,7 +156,7 @@ Look for: `Deployment of web application archive ... has finished`
 ## 📸 Documentation
 
 Complete documentation with screenshots is available in:
-- **Word Document:** `Lakkis_ServletProject.docx`
+- **Word Document:** ServletProject.docx`
 - **GitHub Repository:** https://github.com/AhmadLakkis/servlet-project/tree/servlet-implementation
 
 ## 🔗 Repository Contents
